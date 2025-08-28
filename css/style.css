@@ -1,0 +1,130 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Manrope", sans-serif
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    padding: 0 20px;
+    margin:5rem auto;
+    padding-top: 2rem;
+    
+}
+.icon-star{
+    background-color: hsl(213, 19%, 20%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+   color: hsl(0, 100%, 100%);
+   padding-top: 1.5rem;
+   padding: 1.5rem 2.5rem 0rem .5rem;
+
+   
+}
+p{
+     color:  hsl(217, 12%, 63%);
+     font-size:small ;
+     padding-top:1rem ;
+     padding: .5rem  2.5rem 0rem .5rem;
+}
+.rating-number{
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: .5rem;
+    padding-right: 100px; */
+    padding: .5rem 2.5rem 0rem 0rem;
+    padding-right: 90%;
+
+}
+.rating{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: 300; */
+    background-color: hsl(210, 19%, 20%) ;
+    color: hsl(217, 12%, 63%);
+    border: none;
+    cursor: pointer;
+    margin-left: 2rem; 
+}
+.rating:hover{
+    background: hsl(217, 12%, 63%);
+    color:hsl(0, 100%, 100%) ;}
+.rating.active{
+     color:hsl(0, 100%, 100%)  ;
+    background-color: hsl(25, 97%, 53%);
+
+}
+#Submit-btn{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 320px;
+    height: 30px;
+    border-radius: 30px;
+    color: hsl(216, 12%, 8%);
+    background-color:  hsl(25, 97%, 53%);
+    border: none;
+    font-weight: 700px;
+    font-weight: bold; 
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor:pointer;
+    margin-left:2rem;
+}
+#Submit-btn:hover{
+    background: hsl(0, 100%, 100%);
+     color: hsl(25, 97%, 53%);
+}
+#thankyou{
+    background-color:  hsl(213, 19%, 18%);
+    width: 390px;
+    height: 390px;
+    border-radius: 15px;
+    padding: 0 20px;
+    margin:5rem auto;
+    padding-top: 2rem; 
+    text-align: center;
+    display: none;
+}
+.selected{
+    width:170px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: hsl(210, 19%, 20%);
+    color: hsl(25, 97%, 53%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin: 1rem auto;
+    padding: 20px;
+    padding-top: .8rem;
+    text-align: center;
+
+}
+.dynamic-number{
+    padding:0 3px
+}
+.head{
+    padding-top: 1.5rem;
+}
+.parag{
+    padding: 1rem 2.5rem;
+}
+
