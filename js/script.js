@@ -20,6 +20,4 @@ function ratingBtnsClicked(e){
         e.target.classList.toggle("active");
     }
     defaultScore=e.target.textContent;
-        console.log("الرقم المختار هو:", defaultScore);
-        console.log("العنصر اللي هيظهر فيه الرقم:", selected);
 }
