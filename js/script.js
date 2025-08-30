@@ -21,7 +21,9 @@ function submitScore(e){
     selected.textContent=`${defaultScore}out of 5`
 }
 function ratingBtnsClicked(e){
+
     e.preventDefault();
     ratingBtns.forEach((btn)=>btn.classList.remove("avtive"))
     e.target.classList.add("active")
     defaultScore=e.target.textContent;}
+
